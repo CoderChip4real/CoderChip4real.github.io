@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+   text-decoration: none;
+   list-style: none;
+   box-sizing:border-box;
+
+}
+body {
+  background: black;
+  font-family: 'Caveat Brush', cursive;
+  -webkit-text-fill-color: yellow;
+}
+
+nav{
+  background: black;
+  height: 80px;
+  width: 100%;
+
+}
+
+label.logo{
+  color: yellow;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px
+  margin 0 5px;
+}
+
+
+nav ul li a{
+  color: yellow ;
+  font-size: 24px;
+  padding: 7px 
+  border-radius 3px
+text-transform uppercase;
+}
+
+a.active,a:hover{
+  background: black;
+  transition: .5s;
+  border-radius: 16px;
+  padding: 10px 16px;
+}
+
+h1 {
+  font-size: 54px;
+  margin: 0;
+  padding: 16px 0 8px 0;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 0;
+}
+
+p {
+  font-size: 24px;
+  margin: 0;
+  padding: 16px 0 8px 
+}
+li {
+  font-size: 24px;
+  margin: 0;
+  padding: 16px 0 8px 
+}
+
+img {
+  margin-bottom: 8px;
+  display:inline-block;
+}
+
+button {
+  font-size: 17px;
+  border-radius: 16px;
+  padding: 10px 16px;
+  margin: 8px 48px 24px 48px;
+  background-color: yellow;
+  -webkit-text-fill-color: black;
+  border: 0;
+  cursor: pointer;
+  display:inline-block;
+}

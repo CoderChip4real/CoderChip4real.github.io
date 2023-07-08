@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="assets/css/posts.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <title>Basics of css </title>
+    </head>
+    <body>
+        <nav>
+            <label class="logo">Chip coding blog</label>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ppage.html">All posts</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="gamespage.html">Games</a></li>
+            </ul>
+        </nav>
+        <br><br><br><br><br>
+        <h1>Basics of css</h1>
+        <h4>Published:No idea</h4>
+        <p>
+            You know the basics of html. But you want to add some styling. Well then you have come to the right place!
+            Here you will learn how to customize buttons,text, images, and much more.
+            I do have a few things to suggest before we start: 
+        </p>
+        <ol>
+            <li>Know your html. I suggest you do my basics of html and use that as your html for this post.</li>
+            <li>Know what a button is. We are going to be customizing buttons here so you may want to think about that.</li>
+            <li>Put down in your html file all the header tags. Im serious about this.</li>
+        </ol>
+        <p>Now lets get into this.</p>
+        <br><br><br><br>
+        <h1>First things first</h1>
+        <h2>Making the css file.</h2>
+        <p>
+            First you will want to make your css file next to your html file.
+            And you want to name it style.css And of course make sure you have your file name extensions shown. And click yes if windows asks you about changing the file name extension.
+            Like this:
+        </p>
+        <img src="images/css1 (1).png" width="1200" height="700">
+        <p>Of course it both the files are empty so thats okay.</p>
+        <br><br>
+        <h2>Linking the files</h2>
+        <p>Now one thing to know is that you cant just open a css file. You need to open it in a code editor. You dont need to open it in a browser.</p>
+        <p>Now to link a html file to a css file, you need to make sure the css file is in the same folder as the html file or you know the path to the html and css files. Then below your meta tags write this:<code>&lt;link rel="stylesheet" href="style.css"&gt;</code></p>
+        <p>And thats that.</p>
+        <h2>Testing the link.</h2>
+        <p>Now in your css write</p>
+        <pre><code>
+body{
+    background-color: red;
+}
+            </pre>
+            </code>
+            <p>And it shoukd come up like this:</p>
+            <img src="images/css1 (2).png" width="1200" height="700">
+            <p>And then you have a sucsessful link!</p>
+            <h1>Antomony</h1>
+            <p>
+                The {} are called selectors or rulesets.
+                The words before the selectors are the things you control. For example If I did not want a red background color then I can make it green. Or i could change the text so it has a driffent font.
+                Now lets dig into more of the body features!
+            </p>
+            <br><br><br><br>
+            <h1>Background colors and more!</h1>
+            <p>
+                In the body ussaly you control the basic things. Here are some of those basic things:
+            </p>
+            <ol>
+                <li>Font family</li>
+                <li>Text align</li>
+                <li>Background weather it will be a solid color or gradient or even a split color page!</li>
+            </ol>
+            <p>Now lets say we want to make the text in the center. Then under you background color write this:<code>text-align:center;</code>And it should come up like this:</p>
+            <img src="images/css1 (3).png" width="1200" height="700">
+            <p>And now you see the text is in the center!</p>
+            <br><br><br><br>
+            <h1>Text colors</h1>
+            <p>
+                Now lets say you want to make the h1 text green color. then make and h1 selector like this:
+            </p>
+            <pre><code>
+h1{
+    color:green;
+}
+            </pre>
+            </code>
+            <p>And it turns out like this:</p>
+            <img src="images/css1 (4).png" width="1200" height="700">
+            <p>You can also make your h2 or h3 or whatever header tag a s big as you want! I ussaly mesuare it in pixels. Say I wanted to make my h1 tag bigger. I am going to make it 75 pixels big so i would do this:</p>
+            <pre><code>
+h1{
+    color:green;
+    font-size:75px;
+}
+            </pre>
+            </code>
+            <p>And it turns out like this:</p>
+            <img src="images/css1 (5).png" width="1200" height="700">
+            <P>and now the h1 is 75 pixels in size!</P>
+            <h1>Background color nicer</h1>
+            <p>Lets say we want to change that background color to a driffent color. Then I would go to <a href="https://www.rapidtables.com/web/color/index.html" target="_blank">rapid tables.</a> They have a bunch of helpful recourses and one of thier sections contains web colors! How useful! I am going with indigo. Now you can use rgb codes or hex codes, It does not matter. And now my page looks like this: </p>
+            <img src="images/css1 (6).png" width="1200" height="700">
+            <button onclick="window.location.href='music.html';">
+                <h2>Not focused with your coding?</h2>
+                <br><br>
+                <h3>I suggest you listen to some of my chill music here that I found!(click the button)</h3>
+            </button>
+            <h1>Margin</h1>
+            <p>As a begginerr you dont have to read this section but I suggest it. Bassicly the margin adds space.  So lets say I want to make my margin 10px for the h3. Then lets make the text align for the h3 left and put your  margin of 10px like this: </p>
+                        <pre><code>
+h3 {
+    text-align:left;
+    margin:10px;
+}
+            </pre>
+            </code>
+            <p>And it turns out like this:</p>
+            <img src="images/css1 (8).png" width="1200" height="700">
+            <p>You can see how the margin has added some space between the left. Ten pixels to be precise.</p>
+            <p>It is a very handy thing, because sometimes in css you want your text to go to the left but you dont want it to go to the very left.</p>
+            <br><br><br><br>
+            <h1>Button styling</h1>
+            <p>Now to buttons, there can be a lot of styling needed to make them nice , like my buttons I use. But thats okay, since I will show you some of the styling I use.</p>
+            <br><br>
+            <h2>Text size and background colors.</h2>
+            <p>Lets make the button font size 15 pixels. And lets make its background color deeppink like this:</p>
+            <pre><code>
+    font-size: 15px;
+    background-color: deeppink;
+
+}
+            </pre>
+            </code>
+            <p>And here is how it should turn out:</p>
+            <img src="images/css1 (10).png" width="1200" height="700">
+            <h2>Border radius</h2>
+            <p>
+                Border radius is what we use to make circles. So When you use border radius in a button it make it more rounded.
+                Make the border radius 10 px like this:<code> border-radius: 10px;
+                </code>
+                And it turns out like this.
+            </p>
+            <img src="images/css1 (9).png" width="1200" height="700">
+            <br><br><br><br>
+            <p>And that is it for the basics of css. I hope you learned at least one thing, And now go code!</p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><hr><br>
+        <h2>Chip coding blog</h2>
+    </body>
+</html>

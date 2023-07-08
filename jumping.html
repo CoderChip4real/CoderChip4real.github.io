@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" onkeyup="jump()">
+    <head>
+        <meta charset="uft-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="assets/css/Main.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <title>Jumping game! </title>
+    </head>
+
+<body>
+    <style>
+        *{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.game{
+  width: 500px;
+  height: 200px;
+  border: 1px solid black;
+  margin: auto;
+}
+#character{
+  width: 20px;
+  height: 50px;
+  background-color: rgb(255,255,0);
+  position:relative;
+  top: 150px;
+}
+.animate{
+  animation: jump 0.3s linear;
+}
+@keyframes jump{
+  0%{top: 150px;}
+  30%{top: 100px;}
+  70%{top: 100px;}
+  100%{top: 150px;}
+}
+
+#block{
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 130px;
+  left: 500px;
+  animation: block 1s infinite linear;
+}
+@keyframes block{
+  0%{left: 500px}
+  100%{left: -20px}
+}
+p{
+  text-align: center;
+}
+
+section {
+  background-color: yellow;
+  height: 280px;
+  width: 120;
+}
+    </style>
+    <nav>
+        <label class="logo">Chip coding blog</label>
+        <ul>
+            <br>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="ppage.html">All posts</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="gamespage.html">Games</a></li>
+            
+        </ul>
+    </nav>
+    <section>
+    <h1>Jumping game!</h1>
+    <h2>Directions:Press up key or space key to jump! See how far you can get!</h2>
+    </section>
+    <div class="game">
+        <div id="character"></div>
+        <div id="block"></div>
+    </div>
+    <p>Score: <span id="scoreSpan"></span></p>
+</body>
+<script src="assets/js/jumping.js"></script>
+</html>

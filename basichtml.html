@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="assets/css/posts.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <title>Basics of html</title>
+    </head>
+    
+    <body>
+        <nav>
+            <label class="logo">Chip coding blog</label>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ppage.html">All posts</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="gamespage.html">Games</a></li>
+            </ul>
+        </nav>
+        <br><br><br><br>
+            <h1>Basics of html</h1>
+            <h4>Published:no idea</h4>
+            <br>
+            <p>
+                Okay. You want to program a simple webpage. Well then you have come to the right place!
+                Here you will learn 3 things:
+            </p>
+            <ul>
+                <li>What is html</li>
+                <li>How to make a html file</li>
+                <li>How to program html</li>
+            </ul>
+            <p>Also this website you are making wont have any fonts, backgrounds or A navagation bar.
+                Ready? Lets get into it.
+            </p>
+            <br><br><br><br><br>
+            <h1>What is html?</h1>
+            <p>Html stands for<br><br>Hyper<br>Text<br>Markup<br>Language
+                Its a way of displaying information on your browser.
+                Now renember this is not a programming language. Its a markup language.
+                Html may not be able to control content like Javascript, but its still extremly important.
+            </p>
+            <br><br><br><br>
+            <h1>Making and opening the html file</h1>
+            <br><br>
+            <h2>Creating the file</h2>
+            <p>
+                To make the file this is how you want to do it:
+            </p>
+            <ol>
+                <li>Open file explorer and choose where you want to put the file</li>
+                <li>Create a new text document and name it index.html.And then when it says this: <img src="images/fileextension.png" width=1200" height="700"> click yes.
+                    (if it is not working then press veiw and then press the show button then press file name extensions)
+                </li>
+                <li>Then open it in your browser</li>
+                <li>Then it will look blank. Thats okay since the file does not have anything in it.</li>
+            </ol>
+            <br><br>
+            <p>
+                Now one thing to know is that its a file on your computer, so nobody else can see this file.
+            </p>
+            <br><br>
+            <h2>Editing the file.</h2>
+            <p>
+                Now you will want to edit the file. You need to open it in a code editor.
+                Im using <a href="https://code.visualstudio.com/" target="_blank">Visual Studio code</a>
+                but you can use stuff like<br><a href="https://brackets.io/" target="_blank">brackets</a><br><br><a href="https://notepad-plus-plus.org/" target="_blank">Notepad ++</a><br><br><a href="https://www.sublimetext.com/" target="_blank">Sublime text</a><br>
+                Now we have the file open in a text editor and your browser, we can start writing code!
+            </p>
+            <br><br><br><br>
+            <h1>Writing the code</h1>
+            <h2>Html tags</h2>
+            <p>
+                Html is made up of tags. Tags are special text that you use to markup or distingush your parts of a webpage. Hence the Hyper text markup language.
+                Now the first thing we want to do in our html file is at the top put  is 
+                <code class="Doctype">&lt;!DOCTYPE html&gt;</code>
+                Then after that we want to type in these tags:<code class="html">&lt;html&gt;&lt;/html&gt;</code>
+                Seems a bit weird because we have 2 tags that say html in it, but the <code class="doctype1">&lt;!DOCTYPE html&gt;</code> tag declears that this document is html.
+                The <code class="html">&lt;html&gt;&lt;/html&gt;</code> tags decleare that everything inside these 2 tags are html.
+                Now in the gap between <code class="html">&lt;html&gt;&lt;/html&gt;</code> we want to make a space bar like this:
+            </p>
+            <pre class="language-markup"><code class="language-markup">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;/html&gt;
+            </pre>
+            </code>
+            <br><hr><br>
+            Simple.
+            <br><br><br><br>
+            <p>Next in the gap of the <code>
+                &lt;html&gt;
+                &lt;/html&gt;
+            </code>we want to put this in:<code class="first dode line">this is my &lt;b&gt; website &lt;/b&gt;</code></p>
+            <p>Now when we reload the browser it should look like this:</p>
+            <img src="images/html1 (8).png" width="1200" height="700">
+            <p>you will see the website word written in bold. that is what the bold tag does or <code>
+                &lt;b&gt; &lt;/b&gt;
+            </code>And now you just wrote code!feel happy yet?</p>
+            <h1>The inside of a html tag</h1>
+            <br><br>
+            <p>As you know html is made up of tags.
+                A  
+                <code>
+                    &lt;&gt;
+                   </code>represents the start of a tag.
+                A <code>
+                   &lt;/&gt;
+                  </code>
+                  Shows the end of a tag.
+                  But some tags also dont require the
+                  <code>
+                    &lt;/&gt;
+                   </code>
+                   I will get into 1 or 2 later.
+            </p>
+            <br><br><br><br>
+            <h1>Text tags.</h1>
+            <p>
+                Now lets sat we want to make that text bigger.
+                we would do that with the  header tags or h tags. Get rid of the this is my website, and write in your code:
+                <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+        &lt;h1&gt;hello&lt;/h1&gt;
+        &lt;h2&gt;hello&lt;/h2&gt;
+        &lt;h3&gt;hello&lt;/h3&gt;
+        &lt;h4&gt;hello&lt;/h4&gt;
+        &lt;h5&gt;hello&lt;/h5&gt;
+        &lt;h6&gt;hello&lt;/h6&gt;
+&lt;/html&gt;
+                </pre>
+                </code>
+                And it should look like this:
+            </p>
+            <img src="images/html1 (1).png" height="700" width="1200">
+            <p>
+                Notice something? Thats right! h1 is the biggest and h6 is the smallest!
+                We dont use h4, h5, or h6 that much though.
+                Now we are going to learn about breaks, or <code>
+                    &lt;br&gt;
+                </code>
+            </p>
+            <br><br><br><br>
+            <h1>Breaks</h1>
+            <p>
+                This is one of the few tags that dont have a closing tag.
+                Delete the h 3,4,5 tags and then in between the h1 and h6 tags do this:
+            </p>
+            <pre><code>
+ &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+        &lt;h1&gt;hello&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        &lt;h6&gt;hello&lt;/h6&gt;
+&lt;/html&gt;
+            </pre>
+            </code>
+            <p>
+                Then it will look like this:
+            </p>
+            <img src="images/html1 (3).png" width="1200" height="700">
+            <br><br><br><br>
+            <h1>body and head tag!</h1>
+            <p>
+                Now copy all the code inside you html tags, delete it then inside the tags of html
+                then make a tag like this called body and give it an end body tag.
+            </p>
+            <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;body&gt;
+        &lt;h1&gt;hello&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        &lt;h6&gt;hello&lt;/h6&gt;   
+    &lt;/body&gt;
+&lt;/html&gt;
+            </pre>
+            </code>
+            <p>Then make a tags called <code>
+                &lt;head&gt;
+                &lt;/head&gt;
+            </code>And place them out side of the body but, put them in the html tag above the body like this:</p>
+            <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;hello&lt;/h1&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        &lt;h6&gt;hello&lt;/h6&gt;   
+    &lt;/body&gt;
+&lt;/html&gt;
+            </pre>
+            </code>
+            <p>
+                And in the head make these 3 tags:
+            </p>
+            <pre><code>
+&lt;head&gt;
+    &lt;meta charset="uft-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;/head&gt;
+            </pre>
+            </code>
+            <p>
+                Now these meta tags let the website be responsive, which meens it can display properly on all devices,lets our symbols and letters go into bytes which are used by computers.
+                Now we need the title tag.
+                This will be the title of the website. type in the head after the meta tags this:
+            </p>
+            <pre><code>
+&lt;title&gt;My website&lt;/title&gt;
+            </pre>
+            </code>
+            <p>
+                Reaload the page and it will look like this:
+            </p>
+            <img src="images/html1 (5).png" width="1200" height="700">
+            <p>Now lets learn about Paragraph tags!</p>
+            <br><br><br><br>
+            <h1>Paragraphs!</h1>
+            <p>The Paragraph tag is this: <code>
+                &lt;p&gt;&lt;/p&gt;
+            </code></p>
+            Now lets go to lorem impsum here:<a href="https://www.lipsum.com/" target="_blank">https://www.lipsum.com/</a>
+            <p>Then copy a paragrapgh or lorem ipsum and then make a paragraph tag like this:</p>
+            <pre><code>
+&lt;p&gt;
+The standard Lorem Ipsum passage, used since the 1500s
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+1914 translation by H. Rackham
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+
+Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+
+1914 translation by H. Rackham
+"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures,
+&lt;/p&gt;
+            </pre>
+            </code>
+            <p>
+                And then paste you paragraph of lorem ipsum inside the p tags like this:
+            </p>
+            <pre><code></code>
+&lt;p&gt;
+The standard Lorem Ipsum passage, used since the 1500s
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+1914 translation by H. Rackham
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+
+Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+
+1914 translation by H. Rackham
+"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures,
+&lt;/p&gt;
+            </pre>
+            </code>
+            <p>
+                Now reload your webpage and it should look something like this:
+            </p>
+            <img src="images/html1 (4).png" width="1200" height="700">
+            <p>Do you notice something? I do. The paragrapgh automaticly adds a line break.</p>
+            <br>
+            <br>
+            <h1>Reorginazation</h1>
+            <p>
+                Now lets change the h1. Lets replace hello with My website, and replace h6 with h2 and in h2 write this: learn html.
+                Then make another 3 paraghraphs or lorem ipsum and it should look something like this:
+            </p>
+            <img src="images/html1 (6).png" width="1200" height="700">
+            <p>Now lets learn some other stuff like bold text!</p>
+            <h1>Style time</h1>
+            <p>
+                The first is Italic or <code>
+                    &lt;i&gt;&lt;/i&gt;
+                </code>
+                Second is underline or<code>
+                    &lt;u&gt;&lt;/u&gt;
+                </code>
+                Third is bold or <code>
+                    &lt;b&gt;&lt;/b&gt;
+                </code>
+                Now lets put this into use.
+            </p>
+            <pre><code></code>
+&lt;p&gt;
+&lt;i&gt;The standard Lorem Ipsum passage, used since the 1500s&lt;/i&gt;
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                
+&lt;u&gt;Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC&lt;/u&gt;
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                
+&lt;b&gt;1914 translation by H. Rackham&lt;/b&gt;
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+                
+Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                
+1914 translation by H. Rackham
+"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures,
+&lt;/p&gt;
+            </pre>
+        </code>
+        <p>
+            Here is what this looks like:
+        </p>
+        <img src="images/html1 (7).png" width="1200" height="700">
+        <h1>Links</h1>
+        <h2>Anchor tag</h2>
+        <p>
+            Links are a common way we get around the internet.
+            To do this we use the <code>
+                &lt;a&gt;&lt;/a&gt;
+            </code>
+            tag or anchor tag.
+        </p>
+        <h2>Making a anchor tag</h2>
+        <p>
+            First in your code type your anchor tag and then inside the opening tag write href="" like this:
+        </p>
+        <pre><code></code>
+&lt;a href=""&gt;&lt;/a&gt;
+        </pre>
+        </code>
+        <p>
+            And then inside the"" type the link you want. You will also want to include the full link. so if you wanted to make a link to google it would be like this:
+        </p>
+        <pre><code>
+&lt;a href="https://www.google.com/"&gt;&lt;/a&gt;
+                    </pre>
+                    </code>
+                    <p>And then in between the <code>
+                        &lt;a&gt;&lt;/a&gt;
+                    </code>tags, write google. Then it should come up like this:</p>
+                    <pre><code>
+&lt;a href="https://www.google.com/"&gt;Google&lt;/a&gt;
+                    </pre>
+                    </code>
+                    <p>Put that below the h1 tag and it should look like this:</p>
+                    <img src="images/html1 (15).png" width="1200" height="700">
+                    <p>Like that.</p>
+                    <br><br>
+                    <h2>Loading link on a blank page</h2>
+                    <p>This is pretty simple.
+                        All we have to do is after the href type target"_blank"
+                        Thats it.
+                    </p>
+                    <br><br><br><br>
+                    <h1>Images.</h1>
+                    <p>
+                        Now for images.
+                        First download the image and put it next to the place you want to put it in.
+                        So if you were doing a pcture of Html then it would be like this:
+                    </p>
+                    <img src="images/html1 (16).png" width="1200" height="700">
+                    <p>Then to put the image in your webpage we actually use one of the tags that does not have a end tag!</p>
+                    <p>This is how it should be:</p>
+                    <pre><code>
+&lt;img src="html5.jpg"&gt;
+                    </pre>
+                </code>
+                <p>
+                    Put it below the h2 tag and it should end up like this:
+                </p>
+                <img src="images/html1 (17).png" height="700" width="1200">
+                <p>But of course that image is way too big. So inside the image tag do this:</p>
+                    <pre><code>
+&lt;img src="html5.jpg" width="600" height="400"&gt;
+                    </pre>
+                </code>
+                <p>And it ends up like this:</p>
+                <img src="images/html1 (18).png" width="1200" height="700">
+                <p>And you can make it any way you want!</p>
+                <br><br><br><br>
+                <h1>Lists</h1>
+                <p>
+                    To make a list you need to do this:
+                </p>
+                <pre><code>
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+                </pre>
+                </code>
+                <p>Then in between the li beggining and end tags put something there. In this example Im doing fruit like this:</p>
+                <pre><code>
+&lt;ul&gt;
+    &lt;li&gt;apples&lt;/li&gt;
+    &lt;li&gt;oranges&lt;/li&gt;
+    &lt;li&gt;bannanas&lt;/li&gt;
+    &lt;li&gt;Watermelons&lt;/li&gt;
+&lt;/ul&gt;
+                </pre>
+                </code>
+                <p>
+                    Then put your list below your image and reload the page and it will look something like this:
+                </p>
+                <img src="images/html1 (19).png" width="1200" height="700">
+                <h2>List types</h2>
+                <p>
+                    There are 2 types of lists.
+                    ul which stands for un orderd
+                    and ol which is order. Simpuly put ol uses numbers instead of bullet points.
+                </p>
+                <h2>Nested lists.</h2>
+                <P>
+                    Its actually possible to put lists inside each other.
+                    all you have to do is under a li put another ul or ol and make a list. like this:
+                </P>
+                <pre><code>
+&lt;ul&gt;
+    &lt;li&gt;apples&lt;/li&gt;
+    &lt;ul&gt;
+    &lt;li&gt;Gala&lt;/li&gt;
+    &lt;li&gt;Grannysmith&lt;/li&gt;
+    &lt;li&gt;Rose&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;oranges&lt;/li&gt;
+    &lt;li&gt;bannanas&lt;/li&gt;
+    &lt;li&gt;Watermelons&lt;/li&gt;
+&lt;/ul&gt;
+                </pre>
+                </code>
+                <p>And it will turn out like this:</p>
+                <img src="images/html1 (20).png" height="700" width="1200">
+                <br><br><br><br><br>
+                <h1>Closing</h1>
+                <p>So this is it. You should now know a handful of html knowledege and can now make a simple website!</p>
+                <p>Of course if you want to give it some style you can learn css with my basics of css post! Now what are you waiting for? Go code!</p>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><hr><br>
+    </body>     
+</html>

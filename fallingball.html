@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Escape Game</title>
+    <link rel="stylesheet" href="assets/css/Main.css">
+</head>
+<body>
+  <style>
+    *{
+  padding: 0;
+  margin: 0;
+}
+#game{
+  width: 400px;
+  height: 500px;
+  border: 1px solid yellow;
+  margin: auto;
+  overflow: hidden;
+}
+#character{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  top: 400px;
+  left: 190px;
+  z-index: 1000000;
+}
+.block{
+  width: 400px;
+  height: 20px;
+  background-color: black;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
+.hole{
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
+
+section {
+  background-color: yellow;
+  height: 280px;
+  width: 120;
+}
+  </style>
+    <nav>
+        <label class="logo">Chip coding blog</label>
+        <ul>
+            <br>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="ppage.html">All posts</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="gamespage.html">Games</a></li>
+            
+        </ul>
+    </nav>
+    <section>
+    <h1>Escape game!</h1>
+    <h2>Dont let you get to the top or else you will be crushed!</h2>
+    <h2>To stop that from happening escape through the hole</h2>
+    <h2>Try to beat my Challenge: Get your score past 1012</h2>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  <div id="game">
+    <div id="character"></div>
+  </div>
+
+</body>
+<script src="assets/js/fallingball.js"></script>
+</html>
