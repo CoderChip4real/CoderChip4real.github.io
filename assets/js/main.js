@@ -1,1 +1,1 @@
-alert('Coding rules!');
+alert('Coding rules! Btw videos under construction');
