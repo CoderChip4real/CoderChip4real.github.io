@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: coderchip.tech
+Token: a8028f2e19e2db18839b80182c7b436d48d71ccac1006e34dd95ee2378188a3b
