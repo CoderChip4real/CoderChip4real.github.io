@@ -1,1 +1,1 @@
-alert('**MESSAGE** - For the next few weeks i will not be posting as for I am preparing for something. But to make up for this I have will show you the next few posts that are in the works: 1: Advanced Html 2: Best linux distros part 2 3:How I hosted my website');
+alert('**MESSAGE** - IMPORTANT - MAJOR WEBSITE UPDATE DELAYED - NEW RELEASE DATE 14th JANUARY');
