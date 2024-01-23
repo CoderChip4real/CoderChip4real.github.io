@@ -1,1 +1,1 @@
-alert('**MESSAGE** - IMPORTANT - MAJOR WEBSITE UPDATE DELAYED - NEW RELEASE DATE 14th JANUARY - Try to find the hiddenn link to see a preview of the main page');
+alert('**MESSAGE** - IMPORTANT - MAJOR WEBSITE UPDATE DELAYED - NEW RELEASE DATE NO IDEA IM SORRY - I have found a bug in my new website code so the update is delayed again - However there is a preview of the new main page, so try find the link to it!');
