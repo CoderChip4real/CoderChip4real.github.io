@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="uft-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link rel="stylesheet" href="assets/css/Main.css">
-        <link rel="icon" 
-            type="image/png" 
-            href="images/Titleimage.png">
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-        <title>The chip coding blog!/Games </title>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="images/Titleimage.png">
+        <title>Games | CoderChip </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/nav.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     </head>
     
     <body>
         <style>
-section {
-  background-color: yellow;
-  height: 185px;
-  width: 120;
-}
+            h1{
+                color: #fafa4a;
+            }
         </style>
-        <nav>
-            <label class="logo">Chip coding blog</label>
-            <ul>
-                <br>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="ppage.html">All posts</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Games</a></li>
-            </ul>
-        </nav>
-        <section>
-          <h1>Here I have a selection of games for you to play with if you are bored! Enjoy!</h1>
-        </section>
+        <div id="nav">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">
+                    <img src="images/Titleimage.png" width="75" height="75">
+                    <a href="index.html">Coder chip</a>
+                </label>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ppage.html">All posts</a></li>
+                    <li><a href="#">Videos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br><br><br><br><br><br>
+        <h1>Here I have a selection of games for you to play with if you are bored! Enjoy!</h1>
         <br><br><br>
         <button onclick="window.location.href='fallingball.html';">Escape game!</button>
         <button onclick="window.location.href='jumping.html'">Jumping game!</button>
         <button onclick="window.location.href='rockpapersciccors.html'">Rock paper siccors!</button>
         <button>Coming soon</button>
         <button>Coming soon</button>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <footer>
+            <h4 class="footerlinks"><a href="index.html">Home</a></h4>
+            <br>
+            <h4 class="footerlinks"><a href="about.html">About</a></h4>
+            <br>
+            <h4 class="footerlinks"><a href="ppage.html">Posts</a></h4>
+            <br>
+            <h4 class="copyright">© 2023 CoderChip</h4>
+        </footer>
     </body>
 </html>
