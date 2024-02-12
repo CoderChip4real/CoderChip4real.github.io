@@ -1,46 +1,68 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="uft-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="images/Titleimage.png">
+        <title>All Posts | CoderChip </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/Main.css">
-        <link rel="icon" 
-            type="image/png" 
-            href="images/Titleimage.png">
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-        <title>Roadmap for coding/Chip coding blog </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     </head>
     
     <body>
         <style>
-            section {
-  background-color: yellow;
-  height: 220px;
-  width: 120;
-}
+            section{
+                height: 320px;
+            }
         </style>
-        <nav>
-            <label class="logo">Chip coding blog</label>
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">All posts</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="gamespage.html">Games</a></li>
-            </ul>
-        </nav>
-        <section>
-        <h1>Welcome to the posts page!</h1>
-        <h2>Here you can veiw all my posts!</h2>
-        </section>
-        <h3><a href="best linux distros.html">Best linux distros part 1</a></h3>
-        <h3><a href="windowsvslinux.html">Windows vs linux</a></h3>
-        <h3><a href="typesofcodingpart2(letshope its not going to become a series).html">typesofcodingpart2(letshope its not going to become a series)</a></h3>
-        <h3><a href="orginizing website files.html">Orginzing your website files!</a></h3>
-        <h3><a href="basichtml.html">Basics of html</a></h3>
-        <h3><a href="roadmap.html">Roadmap for coding</a></h3>
-        <h3><a href="basiccss.html">Basics of css</a></h3>
-        <h3><a href="types.html">Types of coding(only covering popular ones)</a></h3>
+        <div id="nav">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                  <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">
+                   <img src="images/Titleimage.png" width="75" height="75">
+                   <a href="index.html">Coder chip</a>
+                </label>
+                <ul>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="ppage.html">All posts</a></li>
+                   <li><a href="#">Videos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="Main">
+            <div id="Top">
+                <section>
+                    <br><br><br><br><br><br>
+                    <h1>Welcome to the posts page!</h1>
+                    <h2>Here you can veiw all my posts!</h2>
+                </section>
+            </div>
+            <div id="Middle">
+                <br><br>
+                <h3><a href="best linux distros.html">Best linux distros part 1</a></h3>
+                <h3><a href="windowsvslinux.html">Windows vs linux</a></h3>
+                <h3><a href="typesofcodingpart2(letshope its not going to become a series).html">typesofcodingpart2(letshope its not going to become a series)</a></h3>
+                <h3><a href="orginizing website files.html">Orginzing your website files!</a></h3>
+                <h3><a href="basichtml.html">Basics of html</a></h3>
+                <h3><a href="roadmap.html">Roadmap for coding</a></h3>
+                <h3><a href="basiccss.html">Basics of css</a></h3>
+                <h3><a href="types.html">Types of coding(only covering popular ones)</a></h3>
+            </div>
+            <div id="Bottom">
+                <br><br><br>
+                <footer>
+                    <h4 class="footerlinks"><a href="index.html">Home</a></h4>
+                    <br>
+                    <h4 class="footerlinks"><a href="about.html">About</a></h4>
+                    <br>
+                    <h4 class="footerlinks"><a href="ppage.html">Posts</a></h4>
+                    <br>
+                    <h4 class="copyright">© 2023 CoderChip</h4>
+                 </footer>
+            </div>
+        </div>
     </body>
 </html>
